@@ -131,7 +131,7 @@ Image * loadTexture2() {
         exit(0);
     }
     //pic.bmp is a 64x64 picture
-    if (!ImageLoad("rew.bmp", image1)) {
+    if (!ImageLoad("images//rew.bmp", image1)) {
         exit(1);
     }
     return image1;

@@ -51,7 +51,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=-lglaux -lglu32 -lglut32 -lopengl32
+LDLIBSOPTIONS=-lglu32 -lglut32 -lopengl32
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
